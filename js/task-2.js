@@ -14,16 +14,24 @@ function calcAverageCalories(days) {
 
 console.log(
   calcAverageCalories([
-    { day: '2023-09-01', calories: 2500 },
-    { day: '2023-09-02', calories: 2400 },
-    { day: '2023-09-03', calories: 2300 },
-    { day: '2023-09-04', calories: 2100 },
+    { day: 'monday', calories: 3010 },
+    { day: 'tuesday', calories: 3200 },
+    { day: 'wednesday', calories: 3120 },
+    { day: 'thursday', calories: 2900 },
+    { day: 'friday', calories: 3450 },
+    { day: 'saturday', calories: 3280 },
+    { day: 'sunday', calories: 3300 },
   ])
-); // 2325
-console.log(calcAverageCalories([])); // 0
+); // 3180
 console.log(
   calcAverageCalories([
-    { day: '2023-09-01', calories: 2000 },
-    { day: '2023-09-02', calories: 2000 },
+    { day: 'monday', calories: 2040 },
+    { day: 'tuesday', calories: 2270 },
+    { day: 'wednesday', calories: 2420 },
+    { day: 'thursday', calories: 1900 },
+    { day: 'friday', calories: 2370 },
+    { day: 'saturday', calories: 2280 },
+    { day: 'sunday', calories: 2610 },
   ])
-); // 2000
+); // 2270
+console.log(calcAverageCalories([])); // 0

@@ -17,5 +17,6 @@ const profile = {
 
 console.log(profile.getInfo()); // Jacob has 300 active hours!
 profile.changeUsername('Marco');
-profile.updatePlayTime(50);
-console.log(profile.getInfo()); // Marco has 350 active hours!
+console.log(profile.getInfo()); // Marco has 300 active hours!
+profile.updatePlayTime(20);
+console.log(profile.getInfo()); // Marco has 320 active hours!
